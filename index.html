@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/markus.jpg">
+  <title>HairDo</title>
+  <link rel="stylesheet" href="land.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <!--Navbar Section -->
+    <nav>
+    <div class="header-container">
+      <a href="#home" class="logo"><h4>H<span>airD</span>o.</h4></a>
+      <ul>
+          <li><a href="#home" class="active">Home</a></li>   
+          <li><a href="#about">About</a></li> 
+          <li><a href="#services">Services</a></li> 
+          <li><a href="#contact">Contact</a></li>
+        </ul> 
+        <button class="menubutton"><img src="icons/menu.png" alt=""></button>
+        </div>   
+      </nav>
+   <!-- End Navbar Section -->
+
+   <!--Home Section -->
+   <section id="home" class="home">
+       <div class="home-content">
+            <h1>H<span>airD</span>o.</h1>
+            <h3>We are your best plug.</h3>
+            <p class="home-per">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eveniet voluptatibus ab sapiente magni qui eius,</p>
+        
+                 <a href="#" class="btn">Book A Section</a>
+
+       </div>
+   </section>
+   <!--End Home Section -->
+
+   <!--Abot Section -->
+   <section id="about">
+    <div class="about-me">
+      <h2 class="about-main">About Us</h2>
+      <p class="about-sub">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </p>
+    </div>
+    <div class="about-mes">
+      <div class="about-img">
+        <img src="img/shari.jpg" class="picture-01">
+        <div><img src="img/jessica.jpg" class="picture-02"></div>
+      </div>
+      
+      <div class="about-box">
+        <h2 class="about-box-01">Get To Know Us</h2>
+        <p class="about-box-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe repudiandae iste aut numquam id est, non delectus. Perspiciatis dolorum nostrum, iure enim libero provident! Laborum fuga doloremque maiores blanditiis!
+      </div>
+    </div>
+  </section>
+  <!--End About Section -->
+
+  <!--Service Section -->
+  <section id="services">
+    <div class="services-me">
+      <h2 class="services-main">Services</h2>
+      <p class="services-sub">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </p>
+    </div>
+      <div class="services-container">
+        <div class="services-01">
+          <img src="img/jessica.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+        <div class="services-01">
+          <img src="img/andrea.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+        <div class="services-01">
+          <img src="img/coumbs.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+        <div class="services-01">
+          <img src="img/shari.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+        <div class="services-01">
+          <img src="img/jessica.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+        <div class="services-01">
+          <img src="img/jessica.jpg">
+          <h2>Hair Curles</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda consequatur at maiores deserunt dolorum voluptas.</p>
+        </div>
+      </div>
+  </section>
+  <!--End Service Section -->
+ 
+  <!--Contact Section -->
+  <section id="contact">
+    <div class="contact-me">
+      <h2 class="contact-main">
+        Get in touch
+      </h2>
+      <p class="contact-sub">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </p>
+    </div>
+
+    <div class="contact-container">
+       <form action="">
+        <div class="form-top">
+          <input type="text" placeholder="Name" required>
+          <input type="text" placeholder="Last Name" required>
+          <input type="text" placeholder="Email" required>
+          <input type="text" placeholder="Phone number" required>
+        </div>
+
+        <div class="form-bottom">
+          <textarea name="message" placeholder="Message"></textarea>
+          <a href="#" class="btn-form">Submit</a>
+        </div>
+       </form>
+    </div>
+  </section>
+  <!--End Contact Section -->
+
+  <!--Footer Section -->
+    <footer>
+      &copf;HairDo 04 2024.
+    </footer>
+  <!--End Footer Section -->
+
+   <!--- Script -->
+   <script>
+    let nav = document.querySelector('nav');
+    let navLink = document.querySelector('nav ul');
+    let Menu = document.querySelector('.menubutton');
+
+    window.addEventListener('scroll',()=>{
+      nav.classList.toggle('naWinScroll',window.scrollY>0)
+    });
+
+    Menu.addEventListener('click',()=>{
+      navLink.classList.toggle('ulblock')
+  });
+    </script>
+    <!--- End Script --> 
+</body>
+</html>
+

@@ -1,0 +1,333 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1rem;
+}
+h3{
+  font-size: 1.2rem;
+}
+.btn{
+  margin-top: 10px;
+ }
+ .btn {
+  font-size: .7rem;
+  padding: 5px 10px;
+  background: #fff;
+  color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ----------- NavBar Section  ----------- */
+.header-container{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 5%;
+}
+nav {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+ }
+ .header-container ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+ }
+nav  a{
+  font-size: 12px;
+  color: #2b2a2a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-weight: 500;
+  transition: 3s;
+}
+nav a:hover,
+nav a.active {
+  color: #4e4feb;
+}
+.logo h4{
+  font-size: 1.5rem;
+  color: #ffc94a;
+  text-transform: none;
+  margin: 0;
+}
+
+span{
+  color: #c08b5c;
+}
+.menubutton{
+  display: none;
+}
+
+ /* ----------- NavBar Section ----------- */
+
+ /* ----------- Home Section  ----------- */
+ #home{
+  padding-top: 80px;
+ }
+ .home{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 0 10%;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/beny.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .home-content{
+ text-align: center;
+ justify-content: center;
+  margin-left: 155px;
+ }
+ .home-per{
+  color: #fff;
+  margin-bottom: 8px;
+ }
+ h1{
+  font-size: 2rem;
+  color: #ffc94a;
+  font-weight: bold;
+ }
+ h3{
+  font-size: 1.2rem;
+  color: #c08b5c;
+}
+ /* ----------- Home Section ----------- */
+
+/* ----------- About Section ----------- */
+#about{
+ padding-top: 90px;
+}
+.about-me{
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 40px;
+  color: var(--Text-Color);
+}
+.about-main{
+  font-size: 1rem;
+  margin-right: 90px;
+  margin-bottom: 5px;
+}
+.about-sub{
+  font-size: 13px;
+  font-weight: 600;
+  width: 470px;
+  margin-left: 150px;
+}
+
+.about-mes{
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  margin: 10px 0 0 60px;
+  gap: 150px;
+}
+.about-img{
+  margin-top: 10px;
+}
+.picture-01{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  
+}
+.picture-02{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 590px;
+  left: 200px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+
+.about-box{
+  width: 300px;
+}
+.about-box-01{
+ font-size: 1rem;
+}
+/* ----------- About Section ----------- */
+
+/* ----------- Services Section ----------- */
+#services{
+  padding-top: 90px;
+ }
+ .services-me{
+   text-transform: uppercase;
+   text-align: center;
+   margin-left: 40px;
+   color: var(--Text-Color);
+ }
+ .services-main{
+   font-size: 15px;
+   margin-right: 90px;
+   margin-bottom: 5px;
+ }
+ .services-sub{
+   font-size: 13px;
+   font-weight: 600;
+   width: 470px;
+   margin-left: 150px;
+ }
+ .services-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+ }
+ .services-01{
+  width: 250px;
+  height: 280px;
+  text-align: center;
+  padding-top: 15px;
+ }
+ 
+ .services-01 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+ }
+ .services-01 h2{
+  font-size: .8rem;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+ }
+ .services-01 p{
+  width: 250px;
+ }
+/* ----------- Services Section ----------- */
+
+/* ----------- Contact Section ----------- */
+#contact{
+  padding-top: 85px;
+ }
+ .contact-me{
+   text-transform: uppercase;
+   text-align: center;
+   margin-left: 40px;
+   color: var(--Text-Color);
+ }
+ .contact-main{
+   font-size: 15px;
+   margin-right: 90px;
+   margin-bottom: 5px;
+ }
+ .contact-sub{
+   font-size: 13px;
+   font-weight: 600;
+   width: 470px;
+   margin-left: 150px;
+ }
+ .contact-container{
+  padding-top: 30px;
+ }
+ form{
+  width: 60%;
+  margin: 0 auto;
+ }
+ .form-top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+ }
+
+ form input {
+  padding: 10px 0;
+  background: transparent;
+  margin-bottom: 30px;
+  color: #c5c5c5;
+  border: none;
+  box-shadow: 0 1px 0 0 #767575;
+  transition: .4 ease;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+ }
+ form input:focus{
+  border-bottom: 1px solid #27ae60;
+  color: #27ae60;
+  outline: 0;
+  border-color: inherit;
+  box-shadow: none;
+ }
+ .form-bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+ }
+ .form-bottom textarea{
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  background: transparent;
+  resize: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+ }
+ .form-bottom textarea:focus{
+  border-bottom: 1px solid #27ae60;
+  color: #27ae60;
+  outline: 0;
+  border-color: inherit;
+  box-shadow: none;
+ }
+ 
+ .form-bottom .btn-form{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  background: #27ae60;
+  color: #fff;
+  border-radius: 4px;
+ }
+/* ----------- Contact Section ----------- */
+
+/* ----------- Fooder Section ----------- */
+ footer{
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+ }
+/* ----------- End Footer Section ----------- */
+ /* ----- Extra Class -----*/ 
+.naWinScroll{
+  background: #efeeee;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.7);
+}
+.menubutton{
+  display: none;
+}
+
